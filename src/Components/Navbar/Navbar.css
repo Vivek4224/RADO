@@ -9,16 +9,41 @@
   src: url("public/assets/font/freesans-webfont.woff2");
 }
 
+.nav_main {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.window-scroll {
+  background-color: black;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 111;
+}
+
 .upper {
   display: flex;
   color: #ffffff;
   gap: 1rem;
   font-weight: 500;
   font-family: freeSans;
-  font-size: 13px;
+  font-size: 15px;
   justify-content: end;
-  padding: 6px 2rem 0.6rem 0;
+  padding: 10px 2rem 0.6rem 0;
+  line-height: 24px;
   width: 100%;
+}
+
+.location,
+.ruppes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .navbar {
@@ -26,7 +51,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 5rem 0.5rem 1rem;
+  padding: 0.5rem 5rem 1rem 1rem;
 }
 
 .l_header ul {
@@ -63,8 +88,5 @@
 .lower {
   display: flex;
   gap: 2rem;
-}
-
-div {
-  background-color: rgb(255, 0, 0);
+  align-items: center;
 }
