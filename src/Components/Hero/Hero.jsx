@@ -10,7 +10,7 @@ const Hero = () => {
       </div>
       <div className="text_sec">
         <p>
-          TRUE SQUARE AUTOMATIC OPEN HEART DIAMONDS <br /> LIMITED EDITION
+          TRUE SQUARE AUTOMATIC OPEN HEART DIAMONDS LIMITED <br /> EDITION
         </p>
       </div>
       <div className="btn hero_btn">Discover more</div>

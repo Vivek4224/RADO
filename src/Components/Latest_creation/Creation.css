@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: freeSans;
+}
+
+.creation_main {
+  width: 80vw;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.c_heading {
+  padding: 3rem 0rem 2rem 0rem;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.c_para {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,64 @@
+.white_bg {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem 0rem;
+}
+
+.content {
+  width: 45%;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.e_title {
+  font-size: 36px;
+  font-family: freeSans;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.e_subTitle {
+  font-size: 17px;
+  font-family: freeSans;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.e_button::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+
+.e_video {
+  width: 55%;
+}
+
+.e_video video {
+  width: 100%;
+}
+
+.e_btn {
+  color: white;
+  background-color: black;
+  padding: 0.8rem 2rem;
+  font-family: freeSans;
+  font-weight: 500;
+  font-size: 17px;
+  transition: ease-out 0.3s;
+}
+
+.e_btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}

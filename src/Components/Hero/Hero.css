@@ -9,6 +9,10 @@
   src: url("../../../public/assets/font/Oswald-Regular.woff2");
 }
 
+body {
+  background-color: black;
+}
+
 .video_sec {
   width: 100%;
   overflow: hidden;
@@ -24,21 +28,21 @@
 
 .text_sec {
   position: absolute;
-  bottom: 9rem;
-  left: 4rem;
+  bottom: 10rem;
+  left: 5rem;
   color: white;
   font-family: oswald;
   font-size: 50px;
   letter-spacing: 0.3rem;
   font-weight: 400;
   line-height: 50px;
-  text-shadow: 0px 0px 15px black;
+  text-shadow: 0px 0px 20px black;
 }
 
 .hero_btn {
   position: absolute;
-  bottom: 25px;
-  left: 4rem;
+  bottom: 30px;
+  left: 5rem;
   color: white;
   border: 1px solid white;
   padding: 0.8rem 2rem;
