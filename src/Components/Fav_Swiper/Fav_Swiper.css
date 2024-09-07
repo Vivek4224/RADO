@@ -1,0 +1,132 @@
+@import url("https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css");
+
+.slider-container {
+  position: relative;
+  width: 50vw;
+  height: 40vh;
+  overflow: hidden;
+  margin: auto;
+}
+
+.left-slide,
+.right-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.left-slide {
+  width: 40%;
+  left: 0;
+  z-index: 1;
+}
+
+.left-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.left-slide h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  padding: 2rem 1rem 1rem 0;
+  text-align: center;
+  font-family: freeSans;
+  font-weight: 500;
+}
+
+.left-slide p {
+  font-size: 13px;
+  font-style: freeSans;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.right-slide {
+  width: 60%;
+  left: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.active-slide {
+  opacity: 1;
+  visibility: visible;
+}
+
+.inactive-slide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.action-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+.up-button,
+.down-button {
+  border: none;
+  /* background-color: #fff; */
+  /* color: #aaa; */
+  cursor: pointer;
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.up-button {
+  transform: translateY(-50%);
+  border-radius: 4px 4px 0 0;
+  color: black;
+  background-color: #fff;
+}
+
+.action-buttons .down-button {
+  transform: translateY(50%);
+  border-radius: 0 0 4px 4px;
+  background-color: black;
+  color: #fff;
+}
+
+.up-button:hover,
+.down-button:hover {
+  background-color: #f0f0f0;
+}
