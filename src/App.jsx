@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Creation from "./Components/Latest_creation/Creation";
 import Edition from "./Components/Edition/Edition";
+import Favourite from "./Components/Favourite/Favourite";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Creation />
       <Edition />
+      <Favourite />
     </>
   );
 }

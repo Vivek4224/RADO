@@ -9,6 +9,7 @@ import slide2 from "../../public/assets/images/slider/02.avif";
 import slide3 from "../../public/assets/images/slider/03.avif";
 import slide4 from "../../public/assets/images/slider/04.avif";
 import edition from "../../public/assets/video/edition.mp4";
+import warranty from "../../public/assets/images/warranty.avif";
 
 export const Logo = logo;
 export const Location = location;
@@ -21,3 +22,4 @@ export const Slide2 = slide2;
 export const Slide3 = slide3;
 export const Slide4 = slide4;
 export const Edition_video = edition;
+export const Warranty = warranty;

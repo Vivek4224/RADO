@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 4rem 0rem;
+  padding-top: 4rem;
 }
 
 .content {
@@ -24,6 +24,13 @@
 .e_subTitle {
   font-size: 17px;
   font-family: freeSans;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.para {
+  font-size: 17px;
+  font-family: freeSans;
   font-weight: 400;
   padding-bottom: 2rem;
 }
@@ -38,12 +45,29 @@
   background-color: black;
 }
 
-.e_video {
+.e_video,
+.e_img {
   width: 55%;
 }
 
 .e_video video {
   width: 100%;
+  object-fit: cover;
+}
+
+.img_main {
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.e_img img {
+  width: 95%;
+  object-fit: cover;
 }
 
 .e_btn {
