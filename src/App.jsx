@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import Creation from "./Components/Latest_creation/Creation";
 import Edition from "./Components/Edition/Edition";
 import Favourite from "./Components/Favourite/Favourite";
+import Categories from "./Components/Categories/Categories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Creation />
       <Edition />
       <Favourite />
+      <Categories />
     </>
   );
 }
