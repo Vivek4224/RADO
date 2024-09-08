@@ -13,6 +13,7 @@ import {
   Watches10,
   Watches11,
   Watches12,
+  Logo,
 } from "../../utils";
 
 const Slider = () => {
@@ -35,73 +36,73 @@ const Slider = () => {
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "Captain Cook High-Tech Ceramic Skeleton",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 4,37,700.00",
+    },
+    {
+      backgroundColor: "#000000",
+      title: "Captain Cook High-Tech Ceramic",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 4,04,400.00",
+    },
+    {
+      backgroundColor: "#000000",
+      title: "Captain Cook High-Tech Ceramic Skeleton",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 4,37,700.00",
+    },
+    {
+      backgroundColor: "#000000",
+      title: "True Squere Automatic Open Heart",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 3,10,200.00",
     },
     {
       backgroundColor: "#000000",
       title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 2,77,000.00",
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "Centrix Automatic Diamonds Open Heart",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 3,60,100.00",
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "Centrix Automatic Open Heart",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 2,49,300.00",
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "Anatom Automatic",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 3,32,400.00",
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "DiaStar Original Skeleton",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 2,20,900.00",
     },
     {
       backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
-    },
-    {
-      backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
-    },
-    {
-      backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
-    },
-    {
-      backgroundColor: "#000000",
-      title: "True Squere Automatic Skeleton",
-      description1: "All in pink",
-      description2: "All in pink",
-      description3: "All in pink",
+      title: "DiaMaster Thinline Automatic",
+      description1: "R27086172",
+      description2: "38.0 mm, Automatic, 115.2g",
+      description3: "₹ 1,99,400.00",
     },
   ];
 
@@ -148,7 +149,9 @@ const Slider = () => {
             <h1>{slide.title}</h1>
             <p>{slide.description1}</p>
             <p>{slide.description2}</p>
-            <p>{slide.description3}</p>
+            <p className="price">
+              <span>{slide.description3}</span>
+            </p>
           </div>
         ))}
       </div>
