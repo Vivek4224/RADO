@@ -18,15 +18,39 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(0.7); */
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 5rem;
-  font-size: 30px;
-  font-weight: 400;
   color: white;
-  position: relative;
+}
+
+.ch_content {
+  backdrop-filter: brightness(0.6);
+  width: 100%;
+  padding-top: 10rem;
+  height: 40vh;
+}
+
+.cate_main h3 {
+  font-size: 30px;
+  font-family: freeSans;
+  font-weight: 400;
+}
+.cate_main button {
+  padding: 0.8rem 2.5rem;
+  margin-top: 0.78rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cate_main button:hover {
+  background-color: white;
+  color: black;
 }
 
 .Skeleton {
@@ -37,8 +61,7 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 5rem;
-  font-size: 36px;
+  font-size: 30px;
   color: white;
 }
 
@@ -50,8 +73,7 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 5rem;
-  font-size: 36px;
+  font-size: 30px;
   color: white;
 }
 
@@ -73,7 +95,6 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 12rem;
   font-size: 36px;
   color: white;
 }
@@ -86,7 +107,13 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 12rem;
   font-size: 36px;
   color: white;
+}
+
+.sec_content {
+  backdrop-filter: brightness(0.6);
+  width: 100%;
+  padding-top: 12rem;
+  height: 60vh;
 }

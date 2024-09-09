@@ -5,6 +5,7 @@ import Creation from "./Components/Latest_creation/Creation";
 import Edition from "./Components/Edition/Edition";
 import Favourite from "./Components/Favourite/Favourite";
 import Categories from "./Components/Categories/Categories";
+import Materials from "./Components/Materials/Materials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Edition />
       <Favourite />
       <Categories />
+      <Materials />
     </>
   );
 }

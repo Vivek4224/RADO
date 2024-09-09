@@ -9,9 +9,7 @@ const Hero = () => {
         <video src={Video} autoPlay muted loop></video>
       </div>
       <div className="text_sec">
-        <p>
-          TRUE SQUARE AUTOMATIC OPEN HEART DIAMONDS LIMITED <br /> EDITION
-        </p>
+        <p>CAPTAIN COOK HIGH-TECH CERAMIC SKELETON</p>
       </div>
       <div className="btn hero_btn">Discover more</div>
       <div className="down_arrow">
